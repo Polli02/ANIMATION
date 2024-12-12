@@ -1,0 +1,158 @@
+/* #region page */
+.page {
+  font-family: "Manrope", sans-serif;
+  color: #1B2129;
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+.page__body {
+  margin: 0;
+}
+.page__menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  opacity: 0;
+  pointer-events: none;
+}
+.page__menu:target {
+  opacity: 1;
+  pointer-events: all;
+}
+/* end region */
+
+/* #region header */
+.header {
+  box-sizing: border-box;
+  height: 100vh;
+  background-image: url('../image/header-bg-mobile2.png');
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  }
+
+
+.header__title {
+  margin: 0;
+  color: #FFFFFF;
+  ;
+  font-family: Manrope;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 36px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  }
+  .header__bottom {
+    padding: 0 20px 40px;
+  }
+/* end region */
+
+/* #region menu */
+.top-bar {
+  padding: 24px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top-bar__icons {
+  display: flex;
+  gap: 24px;
+  }
+
+  .top-bar__logo {
+    display: flex;
+  }
+
+.menu {
+  box-sizing: border-box;
+  height: 100vh;
+  background-color: #F9F9F9;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.menu__top {
+  margin-bottom: 32px;
+}
+
+.menu__nav {
+  margin-bottom: 48px;
+}
+
+.menu__content {
+  padding-inline: 20px;
+}
+
+.menu__phone-number {
+  display: block;
+  margin-bottom: 16px;
+  font-size: 16px;
+  line-height: 22px;
+  color: inherit;
+  text-decoration: none;
+}
+
+.menu__call-to-order {
+  display: block;
+  width: fit-content;
+
+  padding-bottom: 4px;
+  border-bottom: 1px solid #1B2129;
+  color: inherit;
+  text-decoration: none;
+  font-size: 16px;
+  line-height: 22px;
+  letter-spacing: 2px;
+
+}
+/* end region */
+
+/* #region icon */
+.icon {
+  display: block;
+  height: 24px;
+  width: 24px;
+
+}
+.icon--phone {
+background-image: url('../image/icons/icon-phone.png');
+}
+.icon--menu {
+background-image: url('../image/icons/icon-burger-menu.png');
+}
+.icon--close {
+  background-image: url('../image/icons/icon-close.png');
+}
+
+/* end #endregion */
+
+/* #region nav */
+.nav__link {
+  color: inherit;
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 22px;
+  letter-spacing: 1px;
+
+}
+.nav__list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+/* endregion */
+
+/* #region footer */
+/* end #endregion */
+/* Menu (320) */

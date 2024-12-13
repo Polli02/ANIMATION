@@ -34,7 +34,7 @@ body {
 
   opacity: 0; /* Початкова прозорість */
   animation: twinkle 2s infinite; /* Анімація мерехтіння */
-  background-image: url('images/stars/Star\ \ don\'t\ active.png');
+  background-image: url('images/star-no-active.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -49,7 +49,7 @@ body {
 .stars--3 .stars__star:nth-child(-n + 7),
 .stars--4 .stars__star:nth-child(-n + 9),
 .stars--5 .stars__star:nth-child(-n + 10) {
-  background-image: url('images/stars/Star\ active.png');
+  background-image: url('images/star-active.png');
 }
 @keyframes twinkle {
   0%, 100% {

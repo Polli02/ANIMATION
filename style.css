@@ -27,7 +27,7 @@
 .header {
   box-sizing: border-box;
   height: 100vh;
-  background-image: url('../image/header-bg-mobile2.png');
+  background-image: url('images/head-picture.png');
   background-size: cover;
   background-position: center;
 
@@ -123,13 +123,13 @@
 
 }
 .icon--phone {
-background-image: url('../image/icons/icon-phone.png');
+background-image: url('images/Phone-number.png');
 }
 .icon--menu {
-background-image: url('../image/icons/icon-burger-menu.png');
+background-image: url('images/Icon-Burger-menu.png');
 }
 .icon--close {
-  background-image: url('../image/icons/icon-close.png');
+  background-image: url('images/Icon-Close.png');
 }
 
 /* end #endregion */
